@@ -1,4 +1,4 @@
-ifeq ($(call my-dir),$(call project-path-for,qcom-display))
+ifeq ($(TARGET_QCOM_DISPLAY_VARIANT),caf-yu)
 display-hals := libgralloc libgenlock libcopybit
 display-hals += libhwcomposer liboverlay libqdutils libhdmi libqservice
 display-hals += libmemtrack
